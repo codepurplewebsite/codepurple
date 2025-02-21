@@ -1,4 +1,4 @@
-import P24GG3 from "../assets/galleryPhotos/girlsgen-2024/P24GG3.jpg";
+import P24GG3 from "../assets/galleryPhotos/girlsgen-2024/P24GG3.JPG";
 
 function WhoWeAre() {
   const waveText = "101 101 1000011!".split("").map((char, index) => (
