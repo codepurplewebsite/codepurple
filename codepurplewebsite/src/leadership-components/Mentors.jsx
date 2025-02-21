@@ -1,6 +1,6 @@
 import PersonCard from "./PersonCard";
 
-import Cattin from "../assets/mentors/Cattin.jpg";
+import Cattin from "../assets/mentors/Cattin.JPG";
 import Gordon from "../assets/mentors/Gordon.jpg";
 import Mike from "../assets/mentors/Mike.jpg";
 import Nathan from "../assets/mentors/Nathan.jpg";
