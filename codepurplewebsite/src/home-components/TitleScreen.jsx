@@ -1,4 +1,4 @@
-import CodePurple from "../assets/CodePurple.jpg";
+import CodePurple from "../assets/codepurple.jpg";
 
 function TitleScreen() {
   return (
