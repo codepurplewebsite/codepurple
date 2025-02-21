@@ -22,7 +22,7 @@ import LWHS from "../assets/sponsors/LWHS-logo.png";
 import Microsoft from "../assets/sponsors/Microsoft-logo.png";
 import Mod from "../assets/sponsors/Mod-logo.png";
 import OSPI from "../assets/sponsors/OSPI-logo.png";
-import PACCAR from "../assets/sponsors/PACCAR-logo.png";
+import PACCAR from "../assets/sponsors/Paccar-logo.png";
 import Qualcomm from "../assets/sponsors/Qualcomm-logo.png";
 import TresHermanos from "../assets/sponsors/TresHermanos-logo.png";
 
