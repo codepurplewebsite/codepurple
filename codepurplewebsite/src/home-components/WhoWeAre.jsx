@@ -5,22 +5,12 @@ import image1 from "../assets/galleryPhotos/kickoff/IMG_4880.JPG";
 import image2 from "../assets/galleryPhotos/kickoff/IMG_4764.JPG";
 import image3 from "../assets/galleryPhotos/kickoff/IMG_4811.JPG";
 
-const containerStyle = {
-  width: "400px",
-  height: "400px",
-};
-
-const center = {
-  lat: -3.745,
-  lng: -38.523,
-};
-
 function WhoWeAre() {
   const [navBoxStuff, setNavBoxStuff] = useState(null);
 
   return (
-    <div className="h-[50vh] w-screen bg-codePurple z-100 mt-[-1px] flex flex-row items-center z-20">
-      <div className="mx-44 mb-12 w-1/3 h-full flex flex-col">
+    <div className="w-screen bg-codePurple z-100 mt-[-1px] flex flex-col md:flex-row items-center z-20 p-6 md:h-[50vh]">
+      <div className="hidden md:flex mx-44 mb-12 w-1/3 h-full flex-col">
         <h1 className="font-kode font-extrabold text-5xl z-10 text-white">
           Who We Are
         </h1>
@@ -52,7 +42,7 @@ function WhoWeAre() {
           >
             <div className="border-4 border-white rounded w-24 flex-shrink-0 min-w-[6rem]"></div>
             <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all duration-300">
-              <a className="" href="/about#mission">Mission</a>{" "}
+              <a href="/about#mission">Mission</a>
             </span>
           </div>
           <div
@@ -81,8 +71,7 @@ function WhoWeAre() {
           >
             <div className="border-4 border-white rounded w-24 flex-shrink-0 min-w-[6rem]"></div>
             <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all">
-              <a href="/about#history">History</a>{" "}
-              {/* make this auto scroll down to mission section? */}
+              <a href="/about#history">History</a>
             </span>
           </div>
           <div
@@ -124,29 +113,76 @@ function WhoWeAre() {
             className="flex items-center"
             onMouseEnter={() =>
               setNavBoxStuff(
-                <img
-                  className="rounded-lg transition-all"
-                  src={RoboticsLocation}
-                  alt="location img"
-                />
+                <div className="relative w-full h-full flex justify-center items-center">
+                  <div
+                    className="absolute inset-0 w-full h-full bg-cover bg-center"
+                    style={{ backgroundImage: `url(${RoboticsLocation})` }}
+                  ></div>
+                </div>
               )
             }
             onMouseLeave={() => setNavBoxStuff(null)}
           >
             <div className="border-4 border-white rounded w-24 flex-shrink-0 min-w-[6rem]"></div>
             <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all">
-              <a
-                href="https://www.google.com/maps/place/LWHS+Robotics+Club/@47.6733505,-122.1842013,17z/data=!3m1!4b1!4m6!3m5!1s0x549013f8a853f775:0x98de18bf1c2c60d3!8m2!3d47.6733469!4d-122.1816264!16s%2Fg%2F11rth9vqf9?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Location
-              </a>
+              <a href="/about#history">Location</a>
             </span>
           </div>
         </div>
       </div>
-      <div className="absolute right-0 mx-32">
+      
+      <div className="flex flex-col space-y-6 md:hidden">
+        <h1 className="font-kode font-extrabold text-4xl text-white text-center">
+          Who We Are
+        </h1>
+        <div className="bg-black bg-opacity-30 p-6 rounded-lg text-white">
+          <img className="w-full h-40 object-cover rounded-md mb-4" src={image3} alt="Mission" />
+          <p>
+            Team 5827 strives to provide equal opportunities in STEM to students
+            of all ages. By introducing FIRST to students, we empower them to
+            become future leaders and productive adults using the core values of
+            Gracious Professionalism.
+          </p>
+          <a href="/about#mission" className="text-codeYellow underline mt-2 block">Learn more</a>
+        </div>
+
+        <div className="bg-black bg-opacity-30 p-6 rounded-lg text-white">
+          <img className="w-full h-40 object-cover rounded-md mb-4" src={image2} alt="History" />
+          <p>
+            Ever since our founding in 2016, team 5827 has been a tight-knit
+            group of High School robotics enjoyers working together to produce
+            the best robots we can.
+          </p>
+          <a href="/about#history" className="text-codeYellow underline mt-2 block">Learn more</a>
+        </div>
+
+        <div className="bg-black bg-opacity-30 p-6 rounded-lg text-white">
+          <img className="w-full h-40 object-cover rounded-md mb-4" src={image1} alt="Subteams" />
+          <p>
+            In our team, we have many different sub-teams for each component of
+            the robot. Our subteams include:
+          </p>
+          <ul className="list-disc list-inside">
+            <li>Computer Assisted Design</li>
+            <li>Build</li>
+            <li>Electronics</li>
+            <li>Finance</li>
+            <li>Programming</li>
+            <li>And more!</li>
+          </ul>
+          <a href="/subteams" className="text-codeYellow underline mt-2 block">Learn more</a>
+        </div>
+
+        <div className="bg-black bg-opacity-30 p-6 rounded-lg text-white">
+          <img className="w-full h-40 object-cover rounded-md mb-4" src={RoboticsLocation} alt="Subteams" />
+          <p>
+            Our team is located at Lake Washington High School! We operate out of our Robotics room in the north wing.
+          </p>
+          <a href="/subteams" className="text-codeYellow underline mt-2 block">Learn more</a>
+        </div>
+      </div>
+
+      <div className="hidden md:block absolute right-0 mx-32">
         <NavBox stuff={navBoxStuff} />
       </div>
     </div>

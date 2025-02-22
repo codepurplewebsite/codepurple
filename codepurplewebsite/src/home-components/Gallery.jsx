@@ -26,16 +26,16 @@ function Gallery() {
 
   return (
     <div className="h-[80vh] w-full bg-white">
-      <div className="mx-24 mt-16">
-        <div className="relative flex flex-row justify-end items-center gap-10">
-          <div className="border-codePurple border-8 rounded-full w-full h-0 absolute left-[-30%]"></div>
-          <h1 className="font-kode font-extrabold text-7xl z-10 text-black">
+      <div className="mx-6 md:mx-24 mt-16">
+        <div className="relative flex flex-row justify-center md:justify-end items-center gap-10">
+          <div className="border-codePurple border-8 rounded-full w-full h-0 absolute left-[-30%] hidden md:block"></div>
+          <h1 className="font-kode font-extrabold text-5xl md:text-7xl z-10 text-black">
             Gallery
           </h1>
         </div>
       </div>
 
-      <div className="relative overflow-hidden h-[60vh] mx-8">
+      <div className="relative overflow-hidden h-[60vh] mx-4 md:mx-8">
         <div
           ref={scrollRef}
           className="flex flex-row gap-4 overflow-x-scroll scroll-smooth scrollbar-hide whitespace-nowrap h-full items-center"
@@ -45,27 +45,27 @@ function Gallery() {
               key={index}
               src={image}
               alt={`Gallery image ${index + 1}`}
-              className="h-[50vh] w-[30vw] object-cover flex-shrink-0 rounded-lg mx-4"
+              className="h-[70vw] w-[70vw] md:h-[50vh] md:w-[50vh] object-cover flex-shrink-0 rounded-lg mx-4"
             />
           ))}
           <div
             onClick={handleRedirect}
-            className="h-[50vh] w-[30vw] flex-shrink-0 rounded-lg mx-4 bg-gray-300 flex items-center justify-center cursor-pointer hover:bg-codePurple hover:text-white transition-all duration-300"
+            className="h-[70vw] w-[70vw] md:h-[50vh] md:w-[50vh] flex-shrink-0 rounded-lg mx-4 bg-gray-300 flex items-center justify-center cursor-pointer hover:bg-codePurple hover:text-white transition-all duration-300"
           >
-            <span className="text-xl font-bold ">Click To View All Pictures</span>
+            <span className="text-lg md:text-xl font-bold text-center">Click To View All Pictures</span>
           </div>
         </div>
 
         <button
           onClick={() => handleScroll("left")}
-          className="absolute top-1/2 left-8 transform -translate-y-full bg-white px-2 py-1 rounded-full shadow-md"
+          className="hidden md:flex absolute top-1/2 left-8 transform -translate-y-1/2 bg-white px-2 py-1 rounded-full shadow-md"
         >
           ←
         </button>
 
         <button
           onClick={() => handleScroll("right")}
-          className="absolute top-1/2 right-8 transform -translate-y-full bg-white px-2 py-1 rounded-full shadow-md"
+          className="hidden md:flex absolute top-1/2 right-8 transform -translate-y-1/2 bg-white px-2 py-1 rounded-full shadow-md"
         >
           →
         </button>

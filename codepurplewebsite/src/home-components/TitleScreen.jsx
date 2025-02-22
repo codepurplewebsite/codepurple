@@ -9,7 +9,7 @@ function TitleScreen() {
       />
       <div className="relative w-full h-full flex items-center justify-center">
         <div className="font-kode font-bold">
-          <h1 className="text-white text-9xl text-center">
+          <h1 className="text-white text-5xl md:text-9xl text-center">
             Code <span className="text-[#7E44CE]">Purple</span>
           </h1>
           <h1 className="text-white text-4xl text-center">5827</h1>
