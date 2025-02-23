@@ -16,7 +16,7 @@ function WhoWeAre() {
         </h1>
         <div className="border-4 border-white w-2 rounded h-3/4 ml-12 mt-2 flex flex-col justify-around">
           <div
-            className="flex items-center"
+            className="flex items-center grow"
             onMouseEnter={() =>
               setNavBoxStuff(
                 <div className="relative w-full h-full flex justify-center items-center">
@@ -41,12 +41,12 @@ function WhoWeAre() {
             onMouseLeave={() => setNavBoxStuff(null)}
           >
             <div className="border-4 border-white rounded w-24 flex-shrink-0 min-w-[6rem]"></div>
-            <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all duration-300">
-              <a href="/about#mission">Mission</a>
+            <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all duration-300 h-full">
+              <a className = "h-full flex items-center" href="/about#mission">Mission</a>
             </span>
           </div>
           <div
-            className="flex items-center"
+            className="flex items-center grow"
             onMouseEnter={() =>
               setNavBoxStuff(
                 <div className="relative w-full h-full flex justify-center items-center">
@@ -70,12 +70,12 @@ function WhoWeAre() {
             onMouseLeave={() => setNavBoxStuff(null)}
           >
             <div className="border-4 border-white rounded w-24 flex-shrink-0 min-w-[6rem]"></div>
-            <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all">
-              <a href="/about#history">History</a>
+            <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all duration-300 h-full">
+              <a className = "h-full flex items-center" href="/about#history">History</a>
             </span>
           </div>
           <div
-            className="flex items-center"
+            className="flex items-center grow"
             onMouseEnter={() =>
               setNavBoxStuff(
                 <div className="relative w-full h-full flex justify-center items-center">
@@ -105,12 +105,12 @@ function WhoWeAre() {
             onMouseLeave={() => setNavBoxStuff(null)}
           >
             <div className="border-4 border-white rounded w-24 flex-shrink-0 min-w-[6rem]"></div>
-            <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all">
-              <a href="/subteams">Subteams</a>
+            <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all duration-300 h-full">
+              <a className = "h-full flex items-center" href="/subteams">Subteams</a>
             </span>
           </div>
           <div
-            className="flex items-center"
+            className="flex items-center grow"
             onMouseEnter={() =>
               setNavBoxStuff(
                 <div className="relative w-full h-full flex justify-center items-center">
@@ -124,8 +124,8 @@ function WhoWeAre() {
             onMouseLeave={() => setNavBoxStuff(null)}
           >
             <div className="border-4 border-white rounded w-24 flex-shrink-0 min-w-[6rem]"></div>
-            <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all">
-              <a href="/about#history">Location</a>
+            <span className="ml-4 font-kode text-gray-300 text-4xl hover:text-white transition-all duration-300 h-full">
+              <a className = "h-full flex items-center" href="/about#history">Location</a>
             </span>
           </div>
         </div>
