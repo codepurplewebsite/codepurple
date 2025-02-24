@@ -5,7 +5,6 @@ import Aimal from "../assets/leadership/Aimal.png";
 import Logan from "../assets/leadership/Logan.jpg";
 import Omkar from "../assets/leadership/Omkar.jpg";
 import Jayden from "../assets/leadership/Jayden.jpg";
-import Rohan from "../assets/leadership/Rohan.jpg";
 import Emi from "../assets/leadership/Emi.jpg";
 import Jerry from "../assets/leadership/Jerry.jpg";
 import Naythan from "../assets/leadership/Naythan.jpg";
@@ -20,7 +19,6 @@ function Leads() {
                 <PersonCard image={Logan} name={"Logan Schmidt"} title={"Design Lead"} description={""} variant="codePurple" text="white" />
                 <PersonCard image={Omkar} name={"Omkar Page"} title={"Code Lead"} description={""} variant="codePurple" text="white" />
                 <PersonCard image={Jayden} name={"Jayden Hong"} title={"Code Lead"} description={""} variant="codePurple" text="white" />
-                <PersonCard image={Rohan} name={"Rohan Chilukuri"} title={"Finance Lead"} description={""} variant="codePurple" text="white" />
                 <PersonCard image={Emi} name={"Emi Elman"} title={"Marketing Lead"} description={""} variant="codePurple" text="white" />
                 <PersonCard image={Jerry} name={"Jerry Guo"} title={"Drive Lead"} description={""} variant="codePurple" text="white" />
                 <PersonCard image={Naythan} name={"Naythan Saldanha"} title={"Scouting Lead"} description={""} variant="codePurple" text="white" />
