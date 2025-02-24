@@ -14,16 +14,19 @@ const defaultOptions = {
 };
 
 import Boeing from "../assets/sponsors/Boeing-logo.png";
-import Chipotle from "../assets/sponsors/Chipotle-logo.png";
 import FIRSTWA from "../assets/sponsors/FIRSTWA-logo.png";
-import Lego from "../assets/sponsors/Lego-logo.png";
+import ChinnConstructions from "../assets/sponsors/chinn-constructions-logo.png"; 
 import LWHS from "../assets/sponsors/LWHS-logo.png";
 import Microsoft from "../assets/sponsors/Microsoft-logo.png";
 import Mod from "../assets/sponsors/Mod-logo.png";
 import OSPI from "../assets/sponsors/OSPI-logo.png";
-import PACCAR from "../assets/sponsors/Paccar-logo.png";
+import MotherDuck from "../assets/sponsors/MotherDuck-logo.png";
 import Qualcomm from "../assets/sponsors/Qualcomm-logo.png";
-import TresHermanos from "../assets/sponsors/TresHermanos-logo.png";
+import UW from "../assets/sponsors/uw-logo.png";
+import Nvidia from "../assets/sponsors/nvidia-logo.png";
+import TamSkylights from "../assets/sponsors/tam-skylights-logo.png";
+import Panera from "../assets/sponsors/Panera-logo.png";
+import Panda from "../assets/sponsors/panda-logo.jpeg";
 
 function SponsorMarquee() {
   return (
@@ -34,7 +37,9 @@ function SponsorMarquee() {
           { src: OSPI, alt: "OSPI", link: "https://ospi.k12.wa.us/" },
           { src: Boeing, alt: "Boeing", link: "https://boeing.com" },
           { src: FIRSTWA, alt: "First Robotics Washington", link: "https://firstwa.org/" },
-          { src: Mod, alt: "MOD Pizza", link: "https://modpizza.com" },
+          { src: Qualcomm, alt: "Qualcomm", link: "https://qualcomm.com" },
+          { src: UW, alt: "University of Washington", link: "https://www.washington.edu/" },
+          { src: Nvidia, alt: "Nvidia", link: "https://www.nvidia.com" },
         ].map((sponsor, index) => (
           <Tilt key={index} options={defaultOptions}>
             <div
@@ -49,11 +54,12 @@ function SponsorMarquee() {
 
       <Marquee pauseOnHover autoFill direction="right">
         {[
-          { src: PACCAR, alt: "Paccar", link: "https://www.paccar.com/" },
-          { src: Qualcomm, alt: "Qualcomm", link: "https://qualcomm.com" },
-          { src: Lego, alt: "The Lego Foundation", link: "https://learningthroughplay.com/about-us/the-lego-foundation" },
-          { src: Chipotle, alt: "Chipotle Mexican Grill", link: "https://chipotle.com" },
-          { src: TresHermanos, alt: "Tres Hermanos Mexican Restaurant", link: "https://thetreshermanos.com/index.html" },
+          { src: MotherDuck, alt: "MotherDuck", link: "https://motherduck.com/" },
+          { src: Mod, alt: "MOD Pizza", link: "https://modpizza.com" },
+          { src: ChinnConstructions, alt: "Chinn Construction", link: "https://chinnconstruction.com/" },
+          { src: TamSkylights, alt: "Tam Skylights", link: "https://tamskylights.com/" },
+          { src: Panera, alt: "Panera Bread", link: "https://www.panerabread.com/en-us/home.html" },
+          { src: Panda, alt: "Panda Express", link: "https://www.pandaexpress.com/" },
           { src: LWHS, alt: "Lake Washington High School", link: "https://lwhs.lwsd.org" },
         ].map((sponsor, index) => (
           <Tilt key={index} options={defaultOptions}>

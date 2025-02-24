@@ -42,7 +42,7 @@ function Navbar() {
           ))}
         </div>
 
-        <a href="https://github.com/TejasDoesStuff/CodePurple" target="_blank" className="hidden md:block w-8 md:w-10 hover:scale-110 transition-all duration-300">
+        <a href="https://github.com/codepurplewebsite/codepurple" target="_blank" className="hidden md:block w-8 md:w-10 hover:scale-110 transition-all duration-300">
           <svg viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000">
             <path
               stroke="#ffffff"
@@ -80,7 +80,7 @@ function Navbar() {
           </a>
         ))}
         <a
-          href="https://github.com/TejasDoesStuff/CodePurple"
+          href="https://github.com/codepurplewebsite/codepurple"
           target="_blank"
           className="text-white text-2xl font-kode hover:scale-110 transition-all duration-300"
           onClick={() => setMenuOpen(false)}

@@ -1,6 +1,6 @@
 import PersonCard from "../leadership-components/PersonCard";
 
-import Omkar from "../assets/leadership/Omkar.jpg";
+import Omkar from "../assets/leadership/Omkar.png";
 import Tejas from "../assets/Tejas.jpg";
 
 function Contributors(){

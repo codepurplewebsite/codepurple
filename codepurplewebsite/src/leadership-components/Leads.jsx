@@ -3,7 +3,7 @@ import PersonCard from "./PersonCard";
 import Matthew from "../assets/leadership/Matthew.jpg";
 import Aimal from "../assets/leadership/Aimal.png";
 import Logan from "../assets/leadership/Logan.jpg";
-import Omkar from "../assets/leadership/Omkar.jpg";
+import Omkar from "../assets/leadership/Omkar.png";
 import Jayden from "../assets/leadership/Jayden.jpg";
 import Emi from "../assets/leadership/Emi.jpg";
 import Jerry from "../assets/leadership/Jerry.jpg";
