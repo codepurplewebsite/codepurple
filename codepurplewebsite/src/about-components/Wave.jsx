@@ -1,6 +1,6 @@
 function Wave() {
   return (
-    <div className="h-auto w-screen mt-[-40vh] z-10">
+    <div className="w-full h-[20vh] sm:h-[40vh] mt-[-10vh] sm:mt-[-40vh] overflow-hidden">
       <svg
         id="wave"
         style={{ transform: "rotate(0deg)", transition: "0.3s" }}
@@ -11,10 +11,7 @@ function Wave() {
         <defs>
           <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
             <stop stopColor="rgba(255, 255, 255, 1)" offset="0%"></stop>
-            <stop
-              stopColor="rgba(0, 0, 0, 1)"
-              offset="100%"
-            ></stop>
+            <stop stopColor="rgba(0, 0, 0, 1)" offset="100%"></stop>
           </linearGradient>
         </defs>
         <path

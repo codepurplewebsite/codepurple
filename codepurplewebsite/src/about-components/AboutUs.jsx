@@ -11,7 +11,7 @@ function AboutUs() {
           {" "}
         </div>
         <div className="relative w-full h-full flex flex-col items-center justify-center font-kode">
-          <h1 className="text-white text-9xl text-center font-bold">
+          <h1 className="text-white text-5xl md:text-9xl text-center font-bold">
             {" "}
             About Us{" "}
           </h1>

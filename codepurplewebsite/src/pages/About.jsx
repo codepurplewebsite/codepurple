@@ -9,7 +9,7 @@ import WhoWeAre from "../about-components/WhoWeAre";
 function About() {
     return <div className="w-screen flex flex-col items-center overflow-x-hidden">
         <AboutUs />
-        <Wave />
+        {/* <Wave /> */}
         <WhoWeAre />
         <History />
         <Mission />
