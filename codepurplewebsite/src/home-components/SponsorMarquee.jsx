@@ -22,7 +22,7 @@ import Mod from "../assets/sponsors/Mod-logo.png";
 import OSPI from "../assets/sponsors/OSPI-logo.png";
 import MotherDuck from "../assets/sponsors/MotherDuck-logo.png";
 import Qualcomm from "../assets/sponsors/Qualcomm-logo.png";
-import UW from "../assets/sponsors/uw-logo.png";
+import UW from "../assets/sponsors/UW-logo.png";
 import Nvidia from "../assets/sponsors/nvidia-logo.png";
 import TamSkylights from "../assets/sponsors/tam-skylights-logo.png";
 import Panera from "../assets/sponsors/Panera-logo.png";
