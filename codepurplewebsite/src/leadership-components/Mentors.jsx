@@ -14,8 +14,8 @@ function Mentors() {
             <h1 className="text-7xl font-kode font-bold my-6 text-white">Mentors</h1>
             <div className="w-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid gap-8 px-8 pb-8 max-w-[5000px]">
                 <PersonCard image={Cattin} name={"Mr. Cattin"} title={"Club Director"} description={""} />
-                <PersonCard image={Shai} name={"Shai"} title={"Mentor"} description={""} />
-                <PersonCard image={Gordon} name={"Gordon"} title={"Mentor"} description={""} />
+                <PersonCard image={Shai} name={"Shai"} title={"Coach"} description={""} />
+                <PersonCard image={Gordon} name={"Gordon"} title={"Coach"} description={""} />
                 <PersonCard image={Mike} name={"Mike"} title={"Mentor"} description={""} />
                 <PersonCard image={Nathan} name={"Nathan"} title={"Mentor"} description={""} />
                 <PersonCard image={Russ} name={"Russ"} title={"Mentor"} description={""} />
