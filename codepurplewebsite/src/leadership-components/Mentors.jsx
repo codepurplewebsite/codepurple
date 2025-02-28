@@ -2,11 +2,13 @@ import PersonCard from "./PersonCard";
 
 import Cattin from "../assets/mentors/Cattin.JPG";
 import Gordon from "../assets/mentors/Gordon.jpg";
-import Mike from "../assets/mentors/Mike.JPG";
 import Nathan from "../assets/mentors/Nathan.JPG";
 import Shai from "../assets/mentors/Shai.JPG";
 import Russ from "../assets/mentors/Russ.jpg";
 import Kris from "../assets/mentors/Kris.jpg";
+import Winthrop from "../assets/mentors/Winthrop.jpg";
+import Beth from "../assets/mentors/Beth.jpg";
+
 
 function Mentors() {
     return (
@@ -16,10 +18,11 @@ function Mentors() {
                 <PersonCard image={Cattin} name={"Mr. Cattin"} title={"Club Director"} description={""} />
                 <PersonCard image={Shai} name={"Shai"} title={"Coach"} description={""} />
                 <PersonCard image={Gordon} name={"Gordon"} title={"Coach"} description={""} />
-                <PersonCard image={Mike} name={"Mike"} title={"Mentor"} description={""} />
                 <PersonCard image={Nathan} name={"Nathan"} title={"Mentor"} description={""} />
                 <PersonCard image={Russ} name={"Russ"} title={"Mentor"} description={""} />
                 <PersonCard image={Kris} name={"Kris"} title={"Mentor"} description={""} />
+                <PersonCard image={Winthrop} name={"Winthrop"} title={"Mentor"} description={""} />
+                <PersonCard image={Beth} name={"Beth"} title={"Mentor"} description={""} />
             </div>
         </div>
     );
